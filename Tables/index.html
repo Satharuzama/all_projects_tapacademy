@@ -1,11 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tables Page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <style>
+    body {
+      background-color: black;
+      color: whitesmoke;
+    }
+  </style>
+  <body>
+    <h1>My Class Time-Table</h1>
+    <table border="2">
+      <thead>
+        <caption>
+          JAVA FULL STACK DEVELOPMENT - TAP ACADEMY
+        </caption>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Day</th>
+          <th>9-10 AM</th>
+          <th>10-11 AM</th>
+          <th>11-12 PM</th>
+          <th>1-2 PM</th>
+          <th>2-4 PM</th>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <td>MySQL</td>
+          <td>Java</td>
+          <td>SoftSkills</td>
+          <td rowspan="5">Lunch Break</td>
+          <td>Mock</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td colspan="2">Project Class</td>
+          <td>Programming</td>
+          <td>CSS</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>HTML</td>
+          <td>Python</td>
+          <td>DSA</td>
+          <td rowspan="2">Front End Project</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>Java</td>
+          <td>ReastJS</td>
+        </tr>
+        <tr>
+          <th>Firday</th>
+          <td>Programming</td>
+          <td>Java</td>
+          <td>DSA</td>
+          <td>JavaScript</td>
+        </tr>
+        <tfoot><th colspan="6"><i>Note: Firday 2-4 PM is optional activity slot</i></th></tfoot>
+      </tbody>
+    </table>
+  </body>
 </html>
